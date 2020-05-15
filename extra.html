@@ -1,0 +1,61 @@
+<html>
+<head>
+<title>Enquiry</title>
+<link rel="stylesheet" type="text/css" href="enquiry.css">
+
+</head>
+
+<body>
+<form>
+<fieldset>
+<legend>Enquiry Form</legend>
+<label for="fname">First Name</label>
+<input type="text" name="fname" value=""><br><br>
+<label for="lname">Last Name</label>
+<input type="text" name="lname" value=""><br><br>
+<label for="cname">Company Name</label>
+<input type="text" name="cname" value=""><br><br>
+<label for="mobno">Mob NO.</label>
+<input type="number" value="" name="mobno"><br><br>
+<label for ="altmob">Alt.mobno.</label>
+<input type="number" value="" name="mobno"><br><br>
+<label for ="url">Company url</label>
+<input type="url" value="" name="url"><br><br>
+<label for="email">Email</label>
+<input type="email" name="email" value=""><br><br>
+<label for="budget">Aprox.Budget</level><br>
+<input type="radio" name="rad" checked="checked">Above 1cr.<br>
+<input type="radio" name="rad">50lac-1cr<br>
+<input type="radio" name="rad">25lac-50lac<br>
+<input type="radio" name="rad">10lac-25lac<br>
+<input type="radio" name="rad">Below 10lac.<br><br>
+<label for="time">Time Duration</label><br>
+<input type="checkbox" name="time">1 Year<br>
+<input type="checkbox" name="time">9 months<br>
+<input type="checkbox" name="time">6 months<br>
+<input type="checkbox" name="time">3 months<br>
+<input type="checkbox" name="time" checked="checked">not described<br>
+<label for ="country">Select your Country</label>
+<select name="country" >
+<option value="india">India</option>
+<option value="srilanka">Sri&nbspLanka</option>
+<option value="pak">Pakisthan</option>
+<option value="southafrika">South Africa</option>
+<option value="nepal">Nepal</option>
+<option value="bhutan">Bhutan</option>
+<option value="afganistan">Afganistan</option>
+</select><br><br>
+
+
+
+<label for="tarea">Desc your Requirement</label>
+<textarea name="desc" value="" rows="2" cols="20"></textarea><br><br>
+<label for="attach">Attachment</label>
+<input type="file" name="attach" value=""><br><br>
+<input type="reset" name="reset" value="Reset" onclick="alert('Do You Want To Reset Your Form')">
+<input type="submit" name="submit" value="Submit" onclick="alert('Successfully submit form')">
+
+</fieldset>
+</form>
+</body>
+</html>
